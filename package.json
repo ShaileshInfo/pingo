@@ -28,6 +28,10 @@
       "category": "public.app-category.developer-tools",
       "type": "distribution"
     },
+    "win":{
+      "target": ["NSIS"],
+       "verifyUpdateCodeSignature": false
+    },
     "publish": [
       "github"
     ]
